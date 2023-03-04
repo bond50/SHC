@@ -1,0 +1,106 @@
+.footer {
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.footerContent {
+    background: var(--color-default);
+    padding: 60px 0 30px 0;
+}
+
+.footerInfo {
+    margin-bottom: 30px;
+}
+
+.footerInfo h3 {
+    font-size: 22px;
+    margin: 0 0 20px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+
+.footerInfo p {
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: var(--font-secondary);
+
+}
+
+.footerContent h4 {
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+}
+
+.footerContent h4::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: var(--color-white);
+    bottom: 0;
+    left: 0;
+}
+
+.footerLinks, .recent {
+    margin-bottom: 30px;
+}
+
+.footerLinks ul, .recent ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.footerLinks ul .icon, .recent ul .icon {
+    padding-right: 2px;
+    font-size: 15px !important;
+    line-height: 1;
+}
+
+.footerLinks ul li, .recent ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.footerLinks ul li:first-child, .recent ul li:first-child {
+    padding-top: 0;
+}
+
+.footerLinks ul a, .recent ul a {
+    font-size: 13px;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+     color: var(--color-white);
+}
+
+
+
+
+.footerLinks ul a:hover, .recent ul a:hover {
+    color: var(--color-primary);
+}
+
+.footerLinks ul a:first-letter, .recent ul a:first-letter {
+    text-transform: capitalize;
+}
+
+
+.footerLegal {
+    padding: 20px 0;
+    color: var(--color-white);
+    background: var(--color-secondary);
+}

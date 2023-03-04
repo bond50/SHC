@@ -1,0 +1,85 @@
+
+.postBox {
+    transition: 0.3s;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-white);
+
+
+}
+
+.postImg {
+    overflow: hidden;
+    position: relative;
+
+}
+
+.postImg img {
+    transition: 0.5s;
+
+
+}
+
+.meta {
+    margin-top: 15px;
+}
+
+.postDate {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-default);
+
+
+}
+
+.postAuthor {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-primary);
+}
+
+.postTitle {
+    font-size: 16px;
+    color: var(--color-default);
+    font-weight: 700;
+    margin: 10px 0 0 0;
+    position: relative;
+    text-transform: capitalize;
+    transition: 0.3s;
+
+}
+
+.postBox p {
+    margin: 15px 0 0 0;
+
+}
+
+.readMore {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1;
+    transition: 0.3s;
+    margin-top: 15px;
+
+}
+
+.readMore i {
+    line-height: 0;
+    margin-left: 4px;
+    font-size: 15px;
+    color: var(--color-primary);
+
+}
+
+.postBox:hover .postTitle {
+    color: var(--color-primary);
+}
+
+.postBox:hover .postImg img {
+    transform: rotate(6deg) scale(1.2);
+}
